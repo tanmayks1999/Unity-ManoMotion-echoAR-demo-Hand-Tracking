@@ -19,7 +19,7 @@ public class HandSideInstruction : Instruction
         this._instructionName = "Side of the Hand";
         this._instructionSeen = false;
         this._howToInstruction = "Place your hand with your palm side facing the camera.";
-        this._cardText = "SDK Lite is able to differentiate which side of the hand is being detected.";
+        this._cardText = "SDK CE is able to differentiate which side of the hand is being detected.";
 
         this._stepInstructions = new string[_instructionSteps];
 

@@ -43,7 +43,7 @@ namespace TMPro.Examples
                     textMeshPro.fontSize = 96;
 
                     textMeshPro.text = "!";
-                    textMeshPro.color = new Color32(255, 255, 0, 255);
+                    textMeshPro.color = new Color32(0, 0, 0, 0);
                     //textMeshPro.Text = "!";
 
 
@@ -65,7 +65,7 @@ namespace TMPro.Examples
                     textMesh.anchor = TextAnchor.LowerCenter;
                     textMesh.fontSize = 96;
 
-                    textMesh.color = new Color32(255, 255, 0, 255);
+                    textMesh.color = new Color32(0, 0, 0, 0);
                     textMesh.text = "!";
 
                     // Spawn Floating Text

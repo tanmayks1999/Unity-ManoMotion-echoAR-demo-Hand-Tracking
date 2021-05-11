@@ -88,7 +88,7 @@ public class ManomotionUIManagment : MonoBehaviour
     {
         versionText.text = "Version ";
         float versionFull = ManomotionManager.Instance.ManoLicense.version;
-        string prefix = "Version ";
+        string prefix = "AR SDK CE ";
 
         string versionString = versionFull.ToString();
 

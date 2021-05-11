@@ -46,8 +46,9 @@ public class SwitchModel : MonoBehaviour
         if (warning != Warning.WARNING_HAND_NOT_FOUND && gesture.mano_gesture_trigger == ManoGestureTrigger.CLICK) {
             // poi = point of interest in ManoMotion, in this case the location that you click
             Vector3 poi = Camera.main.ViewportToScreenPoint(tracking.poi);
-            if (WithinBounds(poi))
+            if (WithinBounds(poi)) {
                 OnClick();
+            }
 
 
             // I tried for a long time to make this work with the exact borders of the button rather than just checking for

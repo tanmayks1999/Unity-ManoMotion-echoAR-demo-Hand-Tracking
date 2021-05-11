@@ -13,8 +13,8 @@ public class ManoMotionSetup
     {
         if (PlayerSettings.applicationIdentifier.Contains("com.DefaultCompany"))
         {
-            PlayerSettings.applicationIdentifier = "com.manomotion.sdklitearfoundation";
-            Debug.Log("Setting bundle id to com.manomotion.sdklitearfoundation from ManoMotionSetup script");
+            PlayerSettings.applicationIdentifier = "com.Tanmay.ProductVisualizer";
+            Debug.Log("Setting bundle id to com.manomotion.arfoundationssdkceexample from ManoMotionSetup script");
         }
 
 #if UNITY_ANDROID

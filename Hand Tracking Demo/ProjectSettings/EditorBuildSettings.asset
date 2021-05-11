@@ -9,8 +9,8 @@ EditorBuildSettings:
     path: Assets/ManoMotion ARFoundation/Scenes/ManoMotion SDK ARFoundation Features.unity
     guid: 2e8ecbb9ea2e340009ac8d7dd6fbd854
   - enabled: 0
-    path: Assets/Scenes/Main.unity
-    guid: 9fc0d4010bbf28b4594072e72b8655ab
+    path: 
+    guid: 00000000000000000000000000000000
   - enabled: 0
     path: Assets/Manomotion/Examples/Spooky/Spooky.unity
     guid: 958443cf6d60d4de7b2c6be811e72a9d
@@ -19,3 +19,4 @@ EditorBuildSettings:
     guid: 33bb1f7c272cd534aa53aed26613ab4e
   m_configObjects:
     UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: 3df459c1734cbba44b59af1bc6068043, type: 2}
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 7b8bb88cc812b2f41b8585584e5a0fea, type: 2}
